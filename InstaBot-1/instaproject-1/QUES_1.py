@@ -1,0 +1,7 @@
+username=driver.find_element_by_name("username")
+username.send_keys("SAMEPLE USERNAME")
+password=driver.find_element_by_name("password")
+password.send_keys("SMPLE PASSWORD")
+login=driver.find_element_by_tag_name("button")
+login.submit()
+print("WE have sucessfullly login into instagram")
